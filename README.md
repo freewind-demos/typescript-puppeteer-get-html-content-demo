@@ -1,5 +1,5 @@
-TypeScript Puppeteer Demo
-=======================================
+TypeScript Puppeteer Get Html Content Demo
+==========================================
 
 ```
 npm install -g puppeteer

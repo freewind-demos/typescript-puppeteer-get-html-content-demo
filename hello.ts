@@ -7,6 +7,10 @@ async function run() {
   console.log('open github');
   await page.goto("http://github.com");
 
+  const html = await page.evaluate(() => document.body.innerHTML);
+
+  console.log(html);
+  
   await browser.close();
 }
 
